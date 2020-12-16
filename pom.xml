@@ -27,6 +27,13 @@
 
 	<dependencies>
 		
+		<!-- DEPENDÊNCIAS DO SPRING -->
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-core</artifactId>
+			<version>${spring.version}</version>
+		</dependency>
+		
 		<!-- https://mvnrepository.com/artifact/org.springframework/spring-webmvc -->  
 		<dependency>  
 		    <groupId>org.springframework</groupId>  
