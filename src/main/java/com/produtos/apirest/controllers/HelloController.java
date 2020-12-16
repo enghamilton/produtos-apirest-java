@@ -5,7 +5,7 @@
     
     @Controller  
     public class HelloController {  
-    @RequestMapping("/")  
+        @RequestMapping("/")  
         public String display()  
         {  
             return "index";  
